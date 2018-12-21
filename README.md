@@ -15,7 +15,7 @@ $this->load->remove_package_path($module_path);
 
 ## Functions
 ### Set user ID.
-On every login, if you want track user active sessions, you must use this method.
+You must use this method on every login, if you want track user active sessions.
 ```php
 $this->session->set_user_id(USER_ID);
 ```
